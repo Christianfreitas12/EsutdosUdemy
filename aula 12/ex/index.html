@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <script>
+        const nome = prompt("Digite seu nome completo:");
+        let quanti = nome.length;
+        let segun = nome[1];
+        let prime = nome.indexOf('a');
+        let ult = nome.lastIndexOf('a');
+        let corte = nome.slice(-3);
+        let mai = nome.toUpperCase();
+        let mi = nome.toLowerCase();
+        let pala = nome.split(' ')
+
+        document.body.innerHTML = `O seu nome é: <strong> ${nome} </strong><br />`;    
+        document.body.innerHTML += `O seu tem ${quanti} letras<br />`;
+        document.body.innerHTML += `A segunda letra do seu nome é: ${segun}<br />`;
+        document.body.innerHTML += `Qual o primeiro índice da letra LETRA "A" no seu nome? ${prime}<br />`;
+        document.body.innerHTML += `Qual o último índice da letra LETRA "A" no seu nome? ${ult}<br />`;
+        document.body.innerHTML += `As últimas 3 letras do seu nome são: ${corte}<br />`;
+        document.body.innerHTML += `As palavras do seu nome são: ${pala}<br />`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas: ${mai}<br />`;
+        document.body.innerHTML += `Seu nome com letras minúsculas: ${mi}<br />`;
+    </script>
+</body>
+</html>
