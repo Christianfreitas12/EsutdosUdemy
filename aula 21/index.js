@@ -15,7 +15,7 @@ console.log(expressaoOr);*/
 const senha = '12345';
 
 const validar = usuario === 'Christian' && senha === '123456';
-console.log(validar);*/
+console.log(validar);
 
-console.log(!true);
+console.log(!true);*/
 
