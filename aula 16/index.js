@@ -12,4 +12,4 @@ const alunos = ['luiz', 'Maria', 'João ']
 //console.log(remover)
 //delete alunos[0];
 //console.log(alunos.slice(0 , -2)) // fatiar o indici
-console.log(alunos instanceof Number);
+///console.log(alunos instanceof Number);

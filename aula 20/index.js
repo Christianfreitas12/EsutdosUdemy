@@ -27,3 +27,5 @@
 
     const comp5 = '10' !== 10;
     console.log(comp5);
+
+   
